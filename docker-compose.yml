@@ -4,5 +4,5 @@ services:
   python:
     build: .
     volumes:
-      - ./:/var/app
+      - ./app:/var/app
     restart: unless-stopped
